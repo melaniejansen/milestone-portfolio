@@ -1,0 +1,263 @@
+
+/***** BASE STYLES *****/
+
+body {
+	font-family: 'open sans', sans-serif;
+	margin: 0 auto;
+	color: #191919;
+}
+
+#about, #work, #skills {
+    height: 600px;
+}
+h2 {
+	font-family: 'raleway', sans-serif;
+	text-transform: uppercase;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+}
+
+.third-width {
+	width: 400px;
+	float: left;
+}
+
+/***** HEADER SECTION *****/
+
+.navigation {
+	height: 50px;
+}
+
+header {
+	background: #fcfcfc;
+}
+
+header img {
+	float: left;
+	height: 55px;
+	margin: 25px 0 0 20px;
+}
+
+.navigation h3 {
+	float: left;
+	font-family: 'raleway', sans-serif;
+	font-size: 26px;
+	font-weight: 300;
+	margin: 38px 0 0 15px;
+}
+nav {
+	float: right;
+}
+
+nav ul li {
+	display: inline-block;
+	font-family: 'raleway', sans-serif;
+	font-size: 26px;
+	font-weight: 300;
+	margin: 16px 20px 0 0;
+}
+
+ul li a {
+	color: #191919;
+	text-decoration: none;
+}
+
+ul li a:hover {
+	color: #b2b2b2;
+	text-decoration: underline;
+}
+
+.background {
+    background: url('../img/hero-background.jpg');
+    background-size: cover;
+    height: 650px;
+    text-align: center;
+}
+
+.background h2 {
+	font-size: 40px;
+	font-weight: 400;
+	margin-top: 15px;
+	text-transform: none;
+}
+
+.background h1 {
+	font-size: 64px;
+	font-weight: bold;
+	margin-bottom: 0;
+	padding-top: 200px;
+}
+
+.buttons {
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.work-button, .contact-button{
+	background:#b45133;
+	border-radius: 10px;
+	color: #fff;
+	float: left;
+	font-size: 14px;
+	font-weight: 300;
+	height: 40px;
+	margin-right: 10px;
+	width: 120px;
+}
+
+.buttons a {
+	color: #fff;
+	position: relative;
+	text-decoration: none;
+	top: 25%;
+}
+
+.buttons a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+.buttons a:hover {
+	color: #b2b2b2;
+} 
+
+/***** ABOUT SECTION *****/
+
+#about {
+	background: #fcfcfc;
+}
+
+#about .full-width {
+	padding: 70px 0;
+}
+
+#about img {
+	border: 3px solid #b2b2b2;
+	border-radius: 50%;
+	height: 400px;
+	margin-left: 100px;
+}
+
+#about p {
+	font-size: 20px;
+	line-height: 35px;
+}
+
+#about a {
+	color: #b45133;
+	text-decoration: none;
+}
+
+/***** SKILLS SECTION *****/
+
+#skills {
+background: #b45133;	
+}
+
+#skills .full-width {
+	padding: 50px 0;
+}
+
+#skills i {
+	font-size: 120px;
+	padding: 20px 0 0 150px;
+}
+
+#skills h3 {
+	font-family: 'raleway' sans-serif;
+	text-align: center;
+}
+
+#skills p {
+	margin: 30px;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+/***** WORK SECTION *****/
+
+#work {
+	background: #fcfcfc;
+}
+
+#work .full-width {
+	padding: 50px 0;
+}
+
+#work img {
+	border: 3px solid #b2b2b2;
+	height: 270px;
+	margin-left: 70px
+}
+
+#work h2 {
+	padding-bottom: 30px;
+}
+
+#work h3 {
+	text-align: center;
+}
+
+#work p {
+	font-size: 18px;
+	padding: 0 50px 0 30px;
+	line-height: 30px;
+}
+
+
+/***** CONTACT SECTION *****/
+
+#contact {
+	background: #71886f;
+	height: 300px;
+}
+
+#contact .full-width {
+	padding: 45px 0;
+}
+
+#contact .half-width {
+	margin-bottom: 50px;
+}
+
+#contact ul {
+	padding-left: 80px;
+}
+
+#contact ul li {
+	display: inline-block;
+	margin: 50px 0 0 50px;
+}
+
+#contact i {
+	font-size: 72px;
+} 
+
+#contact p {
+	font-size: 22px;
+}
+
+#contact .email a {
+	color: #191919;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#contact .built {
+	float: left;
+	font-size: 12px;
+	font-family: 'raleway', sans-serif;
+	margin: 0 auto;
+	text-align: center; 
+	width: 1200px;
+}
